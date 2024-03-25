@@ -1,0 +1,15 @@
+{
+  "name": "eq-web-sort-v200",
+  "version": "1.0.0",
+  "description": "Server-side requirements for eq-web-sort",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "papaparse": "^5.4.1"
+  }
+}

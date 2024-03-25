@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<language version="1.0" htmlParse="true">
+;
+
+                                                                                    <!-- MULTI-PURPOSE MODALS -->
+    <item id="stepCompleteMessage">Nu är du klar med denna fas. Tryck på den {{{strong}}} blåa knappen &quot;Nästa&quot; {{{/strong}}} för att fortsätta.</item>
+    <item id="logInFirst">Please complete the log-in process first.</item>
+
+    <!-- FOOTER -->
+    <item id="fontSizeText">Textstorlek</item>
+    <item id="cardHeightText">Kortlängd</item>
+    <item id="btnHelp">Hjälp</item>
+    <item id="btnNext">Nästa</item>
+
+    <!-- LANDING SCREEN -->
+    <item id="landingHead">Välkommen!</item>
+    <item id="welcomeText">På denna webbsida kan du fylla i en undersökning angående dina värderingar kring sjömat i Sverige. Dina svar kommer användas inom ett forskningsprojekt.
+  {{{br}}}
+  {{{br}}}
+  Ansvarig forskare är Abigayil Blandon från Stockholm Resilience Centre, Stockholms universitet. Du kan kontakta henne genom att mejla till {{{a href=&quot;mailto:abigayil.blandon@su.se&quot;}}}abigayil.blandon@su.se{{{/a}}}.
+  {{{br}}}
+  {{{br}}}
+  Tack för att du hjälper till med detta forskningsprojekt!</item>
+
+    <!-- LANDING -> ACCESS CONTROL - only displayed if access is restricted -->
+    <item id="accessCodeText">Access Code</item>
+    <item id="accessInputText">Ange identifieringskoden</item>
+    <item id="loginSubmitButtonText">Starta</item>
+    <item id="loginPartIdText">Ange identifieringskoden</item>
+    <item id="accessCodeWarning">Tillgångskoden är ogiltig</item>
+    <item id="partIdWarning"></item>
+    <item id="loginHeaderText">Identifieringskod</item>
+    <item id="loginWelcomeText"></item>
+    <item id="landingHelpModalHead">Välkommen!</item>
+    <item id="landingHelpModalText">På denna webbsida kan du fylla i en undersökning angående dina värderingar kring sjömat i Sverige. Dina svar kommer användas inom ett forskningsprojekt.
+  {{{br}}}
+  {{{br}}}
+  Ansvarig forskare är Abigayil Blandon från Stockholm Resilience Centre, Stockholms universitet. Du kan kontakta henne genom att mejla till {{{a href=&quot;mailto:abigayil.blandon@su.se&quot;}}}abigayil.blandon@su.se{{{/a}}}.
+  {{{br}}}
+  {{{br}}}
+  Tack för att du hjälper till med detta forskningsprojekt!</item>
+
+    <!-- LOCAL DATA COLLECTION -->
+    <item id="localHeader"></item>
+    <item id="partIdText"></item>
+    <item id="usercodeText"></item>
+    <item id="localStartButtonText"></item>
+    <item id="localDeleteButtonText"></item>
+    <item id="localDownloadButtonText"></item>
+    <item id="storedQsortsHeaderText"></item>
+    <item id="localDeleteModalHead"></item>
+    <item id="localDeleteModalText"></item>
+    <item id="localParticipantsText"></item>
+    <item id="localSaveBeforeDeleteModalHeader"></item>
+    <item id="localSaveBeforeDeleteModalText"></item>
+    <item id="localSaveDataButton"></item>
+    <item id="localSubmitSuccessModalHeader"></item>
+    <item id="localSubmitSuccessModalText"></item>
+    <item id="returnToLocalPanelButtonText"></item>
+
+    <!-- PRESORT: rough sorting into three piles (leave blank to skip popup)-->
+    <item id="titleBarText">Preliminär sortering: Vad är viktigt för att uppnå hållbar sjömat?</item>
+    <item id="presortAgreement">Instämmer</item>
+    <item id="presortStatements">Påståenden</item>
+    <item id="presortNeutral">Är neutral</item>
+    <item id="presortDisagreement">Instämmer inte</item>
+    <item id="presortModalHead">Steg 1 av 2</item>
+    <item id="presortModalText">{{{h2}}}Vad är viktigt för att uppnå hållbar sjömat?{{{/h2}}}
+  Läs följande påståenden noggrant och dela upp dem i tre högar: en hög för påståenden som du tenderar att inte hålla med om, en hög för påståenden som du tenderar att hålla med om och en hög för resten. Ändringar kan göras senare.
+  {{{br}}}
+  {{{br}}}
+  Om du vill läsa den här instruktionen en gång till klickar du på knappen längst ner till höger.</item>
+    <item id="presortPreventNavModalHead">Du är inte klar än</item>
+    <item id="presortPreventNavModalText">Vänligen sortera alla påståenden.</item>
+    <item id="presortFinishedModalHead">Den preliminära sorteringen är klar</item>
+    <item id="presortFinishedModalText">Nu är sorteringen klar. Tryck på &quot;Nästa&quot;.</item>
+
+    <!-- SORT: sorting (leave blank to skip popup) -->
+    <item id="sortHelpModalHead">Steg 2 av 2</item>
+    <item id="sortHelpModalText">I det här steget ska du sortera uttalandena i ett rutmönster. De påståenden som du håller med om mest ska placeras längst till höger i rutnätet och de påståenden som du inte håller med om ska placeras längst till vänster.</item>
+    <item id="sortAgreement">Instämmer</item>
+    <item id="sortDisagreement">Instämmer inte</item>
+    <item id="condOfInst">Vad är viktigt för att uppnå hållbar sjömat?</item>
+    <item id="sortingCompleteModalHead">Sortering klar</item>
+    <item id="sortingCompleteModalText">Du har slutfört sorteringen. Vänligen ta en stund för att bekräfta placeringen av korten.{{{br}}}{{{br}}}När du är nöjd med placeringen, tryck på &quot;Nästa&quot;.</item>
+    <item id="sortPreventNavModalHead">Du är inte klar än</item>
+    <item id="sortPreventNavModalText">Slutför sorteringen innan du går vidare till nästa steg.</item>
+    <item id="sortOverloadedColumnModalHead">Fel</item>
+    <item id="sortOverloadedColumnModalText">En av kolumnerna har för många kort (den är orangefärgad och har en streckad kant). Justera placeringen av korten så att alla kolumner har rätt antal kort.</item>
+
+    <!-- POSTSORT: comments - only displayed if showStep3 = true -->
+    <item id="postsortHeader"></item>
+    <item id="postsortInstructions"></item>
+    <item id="placeholder"></item>
+    <item id="postsortAgreement"></item>
+    <item id="postsortDisagreement"></item>
+    <item id="postsortModalHead"></item>
+    <item id="postsortModalText"></item>
+
+    <!-- SURVEY: Additional questions, only displayed if showStep4 == true -->
+    <item id="surveyHeader"></item>
+    <item id="surveyModalHead"></item>
+    <item id="surveyModalText"></item>
+    <item id="surveyPreventNavModalHead"></item>
+    <item id="surveyPreventNavModalText"></item>
+
+    <!-- SUBMIT -->
+    <item id="btnTransfer">Skicka in uppgifter</item>
+    <item id="transferHead">Sista steget</item>
+    <item id="transferTextAbove">{{{center}}}{{{h1}}}Redo att skicka in{{{/h1}}}{{{/center}}}{{{br}}}{{{br}}} {{{h2}}}Klicka på knappen &quot;Skicka in uppgifter&quot; för att skicka dina resultat.{{{/h2}}}</item>
+    <item id="transferTextBelow">Om meddelandet om bekräftelse av inlämning inte visas, {{{br}}} vänligen vänta några minuter och klicka på knappen igen.</item>
+    <item id="transferOkModalHeader">Tack! Dina svar har skickats framgångsrikt!</item>
+    <item id="transferOkModalText">Tack så mycket för att du tog din tid för att besvara enkäten!{{{br}}}{{{br}}}Du kan nu stänga detta fönster.</item>
+    <item id="transferFailModalHeader">Fel</item>
+    <item id="transferFailModalText">Dina svar kunde inte skickas. Prova igen om några minuter.</item>
+    <item id="fallbackMessage">Vänlige skicka dina svar till abigayil.blandon@su.se. Tack!</item>
+    <item id="btnDownload">Ladda ner</item>
+    <item id="goodbyeMessage">Tack så mycket för att du tog din tid för att besvara enkäten!{{{br}}}{{{br}}}Du kan nu stänga detta fönster.</item>
+
+</language>

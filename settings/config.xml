@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config version="1.0" htmlParse="false">
+
+     <!-- GENERAL SETTINGS -->
+     <!-- options: firebase, local, or sheets -->
+     <item id="studyTitle">Hållbar sjömat</item>
+     <item id="setupTarget">sheets</item>
+     <item id="firebaseOrLocal">sheets</item>
+     <item id="steinApiUrl">https://seafood.blandon.se/sv_new/save</item>
+
+     <item id="shuffleCards">true</item>
+     <item id="headerBarColor">#337ab7</item>
+     <item id="devMode">false</item>
+
+     <!-- ACCESS -->
+     <!-- options: anonymous, partId-access, partId, access -->
+     <item id="initialScreen">partId</item>
+     <item id="accessCode">demo</item>
+
+
+     <!-- FONT OPTIONS -->
+     <item id="setDefaultFontSize">true</item>
+     <item id="defaultFontSize">15</item>
+     <item id="defaultFontColor">#2a2a2a</item>
+
+
+     <!-- PRESORT -->
+     <!-- default colors #ccffcc, #e0e0e0, #ffe0f0 -->
+     <item id="greenCardColor">#ccffcc</item>
+     <item id="yellowCardColor">#e0e0e0</item>
+     <item id="pinkCardColor">#ffe0f0</item>
+
+
+     <!-- SORT -->
+     <item id="condOfInstFontSize">20</item>
+     <item id="allowUnforcedSorts">false</item>
+     <item id="warnOverloadedColumn">true</item>
+     <item id="setMinCardHeight">true</item>
+     <item id="minCardHeight">90</item>
+
+
+     <!-- POSTSORT -->
+     <item id="showPostsort">false</item>
+     <item id="showSecondPosColumn">false</item>
+     <item id="showSecondNegColumn">false</item>
+
+
+     <item id="displayNeutralObjects">false</item>
+
+
+     <!-- SURVEY - Survey Questions -->
+     <item id="showSurvey">false</item>
+
+     <item id="survey">
+          <input type="text" required="true" limited="true" maxlength="10" restricted="false"></input>
+          <label>Ange identifieringskoden</label>
+          <note>Ange identifieringskoden. Det är koden du fick från intervjuaren</note>
+     </item>
+</config>
