@@ -3,8 +3,8 @@ const path = require('path');
 const fs = require('fs');
 const papa = require("papaparse");
 const app = express();
-const port = 9002;
-const password = 'fishAreC00L!'
+const port = 9000;
+const password = 'password'
 
 function saveToFile(filename, newData) {
   fs.readFile(`${filename}.json`, 'utf8', (err, dataString) => {
