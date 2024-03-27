@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<language version="1.0" htmlParse="true">
+;
+
+                                                                                    <!-- MULTI-PURPOSE MODALS -->
+    <item id="stepCompleteMessage">このステップを完了しました。画面右下の&quot;次へ&quot; {{{strong}}} と書いたボタンをクリックして、次のステップに進んでください</item>
+    <item id="logInFirst"></item>
+
+    <!-- FOOTER -->
+    <item id="fontSizeText">文字サイズ</item>
+    <item id="cardHeightText">カードの高さ</item>
+    <item id="btnHelp">説明</item>
+    <item id="btnNext">次へ</item>
+
+    <!-- LANDING SCREEN -->
+    <item id="landingHead">ようこそ</item>
+    <item id="welcomeText">{{{h2}}}日本における持続性を担保された水産物をめぐる価値観に関する研究プロジェクト{{{/h2}}}{{{br/}}}{{{br}}}{{{p}}}今回の研究プロジェクトにご協力いただき、ありがとうございました{{{/p}}}</item>
+
+    <!-- LANDING -> ACCESS CONTROL - only displayed if access is restricted -->
+    <item id="accessCodeText">Access Code</item>
+    <item id="accessInputText">ID番号を入力してください</item>
+    <item id="loginSubmitButtonText">入力</item>
+    <item id="loginPartIdText">研究者からもらったID番号を入力してください</item>
+    <item id="accessCodeWarning"></item>
+    <item id="partIdWarning"></item>
+    <item id="loginHeaderText">ID番号</item>
+    <item id="loginWelcomeText"></item>
+    <item id="landingHelpModalHead">ようこそ</item>
+    <item id="landingHelpModalText">このウェブサイトを通して、日本における持続可能な水産物をめぐる価値観に関する研究プロジェクトに参加することができます。
+  {{{br}}}
+  {{{br}}}
+  研究プロジェクトの担当者はストックホルム・レジリエンス・センターのアビゲイル・ブランドンです。彼女は以下のメールを通して連絡できます：{{{a href=&quot;mailto:abigayil.blandon@su.se&quot;}}}abigayil.blandon@su.se{{{/a}}}.
+  {{{br}}}
+  {{{br}}}
+  今回の研究プロジェクトにご協力いただき、ありがとうございました</item>
+
+    <!-- LOCAL DATA COLLECTION -->
+    <item id="localHeader"></item>
+    <item id="partIdText"></item>
+    <item id="usercodeText"></item>
+    <item id="localStartButtonText"></item>
+    <item id="localDeleteButtonText"></item>
+    <item id="localDownloadButtonText"></item>
+    <item id="storedQsortsHeaderText"></item>
+    <item id="localDeleteModalHead"></item>
+    <item id="localDeleteModalText"></item>
+    <item id="localParticipantsText"></item>
+    <item id="localSaveBeforeDeleteModalHeader"></item>
+    <item id="localSaveBeforeDeleteModalText"></item>
+    <item id="localSaveDataButton"></item>
+    <item id="localSubmitSuccessModalHeader"></item>
+    <item id="localSubmitSuccessModalText"></item>
+    <item id="returnToLocalPanelButtonText"></item>
+
+    <!-- PRESORT: rough sorting into three piles (leave blank to skip popup)-->
+    <item id="titleBarText">予備の仕分け: 持続性が担保された水産物の提供に至るための重要な課題は何でしょうか？</item>
+    <item id="presortAgreement">賛成</item>
+    <item id="presortStatements">カード</item>
+    <item id="presortNeutral">どちらでもない</item>
+    <item id="presortDisagreement">反対</item>
+    <item id="presortModalHead">第一番ステップ</item>
+    <item id="presortModalText">次のカードをよく読み、反対するカードの山、賛成するカード文の山、それ以外のカードの山の3つの山に分けてください。変更は後で可能です。{{{br}}}{{{br}}}この説明をもう一度読みたい場合は、左下にある情報ボタンをクリックしてください。</item>
+    <item id="presortPreventNavModalHead"></item>
+    <item id="presortPreventNavModalText">次のステップへ進む前に予備の仕分けを終わらせてください</item>
+    <item id="presortFinishedModalHead">予備の仕分けを終わらせました</item>
+    <item id="presortFinishedModalText">このステップは完了しました。ページ右下の{{{b}}}&quot;次へ&quot;{{{/b}}}と書いたボタンをクリックして、次のステップに進んでください。</item>
+
+    <!-- SORT: sorting (leave blank to skip popup) -->
+    <item id="sortHelpModalHead">第二番ステップ</item>
+    <item id="sortHelpModalText">このステップでは、カードを確定されてある枠に仕分けします。最も賛成するカードは枠の右端に、反対のカードは左端に配置します。</item>
+    <item id="sortAgreement">賛成</item>
+    <item id="sortDisagreement">反対</item>
+    <item id="condOfInst">持続性が担保された水産物の提供に至るための重要な課題は何でしょうか？</item>
+    <item id="sortingCompleteModalHead">仕分けを終わらせました</item>
+    <item id="sortingCompleteModalText">カードの順位付けを終わらせました。カードの配置をご確認ください。{{{br}}}{{{br}}}配置に問題がなければ、画面右下の{{{b}}}&quot;次へ&quot;{{{/b}}} と書いてあるボタンを押し、次のステップに進んでください。</item>
+    <item id="sortPreventNavModalHead"></item>
+    <item id="sortPreventNavModalText">次のステップに進む前に仕分けを終わらせてください</item>
+    <item id="sortOverloadedColumnModalHead"></item>
+    <item id="sortOverloadedColumnModalText">ある列のカードが多すぎます（オレンジ色の枠で示されています）。すべての列が正しい枚数になるように、カードの位置を調整してください。</item>
+
+    <!-- POSTSORT: comments - only displayed if showStep3 = true -->
+    <item id="postsortHeader"></item>
+    <item id="postsortInstructions"></item>
+    <item id="placeholder"></item>
+    <item id="postsortAgreement"></item>
+    <item id="postsortDisagreement"></item>
+    <item id="postsortModalHead"></item>
+    <item id="postsortModalText"></item>
+
+    <!-- SURVEY: Additional questions, only displayed if showStep4 == true -->
+    <item id="surveyHeader"></item>
+    <item id="surveyModalHead"></item>
+    <item id="surveyModalText"></item>
+    <item id="surveyPreventNavModalHead"></item>
+    <item id="surveyPreventNavModalText"></item>
+
+    <!-- SUBMIT -->
+    <item id="btnTransfer">データ通信</item>
+    <item id="transferHead">最後に</item>
+    <item id="transferTextAbove">{{{center}}}{{{h1}}}データ通信{{{/h1}}}{{{/center}}}{{{br}}}{{{br}}} {{{h2}}}&quot;データ通信&quot;のボタンを押して、アンケートの結果を通信してください{{{/h2}}}</item>
+    <item id="transferTextBelow">通信確認メッセージが表示されない場合は、{{{br}}}数分待って再度ボタンを押してください。</item>
+    <item id="transferOkModalHeader">データが通信されました</item>
+    <item id="transferOkModalText">研究へのご参加お疲れ様でした。ブラウザのタブを閉じてください。</item>
+    <item id="transferFailModalHeader">データを通信できませんでした</item>
+    <item id="transferFailModalText">もう一回やってみてください</item>
+    <item id="fallbackMessage">データ通信が失敗しました。結果をダウンロードし、添付ファイルとして abigayil.blandon@su.se までお送りください。ありがとうございました。</item>
+    <item id="btnDownload">ダウンロード</item>
+    <item id="goodbyeMessage">研究へのご参加お疲れ様でした。ブラウザのタブを閉じてください。</item>
+
+</language>
