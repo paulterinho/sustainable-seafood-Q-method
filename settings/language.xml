@@ -4,24 +4,24 @@
 ;
 
                                                                                     <!-- MULTI-PURPOSE MODALS -->
-    <item id="stepCompleteMessage">Nu är du klar med denna fas. Tryck på den {{{strong}}} blåa knappen &quot;Nästa&quot; {{{/strong}}} för att fortsätta.</item>
+    <item id="stepCompleteMessage">Now you are done with this phase. Press the {{{strong}}} blue button &quot;Next&quot; {{{/strong}}} to continue.</item>
     <item id="logInFirst">Please complete the log-in process first.</item>
 
     <!-- FOOTER -->
-    <item id="fontSizeText">Textstorlek</item>
-    <item id="cardHeightText">Kortlängd</item>
-    <item id="btnHelp">Hjälp</item>
-    <item id="btnNext">Nästa</item>
+    <item id="fontSizeText">Text Size</item>
+    <item id="cardHeightText">Card Height</item>
+    <item id="btnHelp">Help</item>
+    <item id="btnNext">Next</item>
 
     <!-- LANDING SCREEN -->
-    <item id="landingHead">Välkommen!</item>
-    <item id="welcomeText">På denna webbsida kan du fylla i en undersökning angående dina värderingar kring sjömat i Sverige. Dina svar kommer användas inom ett forskningsprojekt.
-  {{{br}}}
-  {{{br}}}
-  Ansvarig forskare är Abigayil Blandon från Stockholm Resilience Centre, Stockholms universitet. Du kan kontakta henne genom att mejla till {{{a href=&quot;mailto:abigayil.blandon@su.se&quot;}}}abigayil.blandon@su.se{{{/a}}}.
-  {{{br}}}
-  {{{br}}}
-  Tack för att du hjälper till med detta forskningsprojekt!</item>
+    <item id="landingHead">Welcome!</item>
+    <item id="welcomeText">Text sizeOn this website you can fill in a survey regarding your values ​​regarding seafood in Sweden. Your answers will be used within a research project.
+      {{{br}}}
+      {{{br}}}
+      Responsible researcher is Abigayil Blandon from Stockholm Resilience Centre, Stockholm University. You can contact her by emailing {{{a href=&quot;mailto:abigayil.blandon@su.se&quot;}}}abigayil.blandon@su.se{{{/a}}}.
+      {{{br}}}
+      {{{br}}}
+      Thank you for helping with this research project!</item>
 
     <!-- LANDING -> ACCESS CONTROL - only displayed if access is restricted -->
     <item id="accessCodeText">Access Code</item>
